@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="divide">
+        <div class="left-side">
+          <button class="btn again" type="button">Again!</button>
+        </div>
+        <div class="right-side"><h6>(Between 1 and 20)</h6></div>
+      </div>
+      <h1>Guess My Number!</h1>
+      <div class="number">?</div>
+      <hr />
+    </header>
+    <div class="main">
+      <div class="left">
+        <input type="number" name="inp" class="guess" />
+        <button class="btn check" type="button">Check!</button>
+      </div>
+      <div class="right">
+        <p class="message"><i class="fas fa-gamepad"></i> Start Guessing....</p>
+        <p class="label-score">
+          <i class="fas fa-heart"></i> Score:<span class="score">20</span>
+        </p>
+
+        <p class="label-highscore">
+          <i class="fas fa-medal"></i> Highscore:<span class="highscore"
+            >0</span
+          >
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

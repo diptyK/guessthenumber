@@ -1,0 +1,145 @@
+*,
+*::before,
+* ::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+h1 {
+  line-height: 2.5rem;
+}
+body {
+  background-color: #000;
+  color: white;
+  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+header,
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  width: 100vw;
+  height: 50vh;
+}
+.btn {
+  font-family: 'Press Start 2P', cursive;
+  padding: 0.8rem 1.5rem;
+  color: rgb(26, 25, 25);
+  background-color: #fff;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(85, 92, 92);
+  color: #fff;
+  font-size: 14px;
+}
+.btn:visited {
+  background-color: #fab;
+}
+.btn:active {
+  background-color: #abc;
+}
+.divide {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+.number {
+  background-color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 0.5em 1.5em;
+  margin: 0 auto;
+  color: #000;
+}
+.main {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.left {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+/* input{
+  padding:1rem 2rem ;
+} */
+input.guess[type='number'] {
+  width: 150px;
+  height: 60px;
+  font-size: x-large;
+  padding: 1em 0;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: #000;
+  border: 2px solid #fff;
+  color: #fff;
+}
+.right {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: left;
+  margin-left: 0.5rem;
+}
+h4 {
+  line-height: 1.5rem;
+}
+p {
+  line-height: 1rem;
+  font-size: 14px;
+}
+
+p.message {
+  margin-top: 20px;
+  margin-bottom: 1.5rem;
+}
+p.label-score {
+  margin-bottom: 1rem;
+}
+.fa-gamepad,
+.fa-times-circle,
+.fa-heart,
+.fa-check-circle,
+.fa-medal,
+.fa-arrow-circle-up,
+.fa-arrow-circle-down,
+.fa-frown {
+  font-size: 25px;
+}
+.fa-gamepad {
+  color: green;
+}
+.fa-times-circle {
+  color: white;
+}
+.fa-heart {
+  color: red;
+}
+.fa-arrow-circle-up,
+.fa-arrow-circle-down,
+.fa-frown {
+  color: aqua;
+}
+.fa-check-circle {
+  color: white;
+}
+.fa-medal {
+  color: yellow;
+}
