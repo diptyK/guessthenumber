@@ -7,7 +7,7 @@
   z-index: 1;
 }
 h1 {
-  line-height: 2.5rem;
+  line-height: 3rem;
 }
 body {
   background-color: #000;
@@ -35,17 +35,18 @@ header,
   color: rgb(26, 25, 25);
   background-color: #fff;
   border: none;
+  font-size: 20px;
 }
 .btn:hover {
-  background-color: rgb(85, 92, 92);
+  background-color: rgb(143, 211, 211);
   color: #fff;
-  font-size: 14px;
+  font-size: 20px;
 }
 .btn:visited {
   background-color: #fab;
 }
 .btn:active {
-  background-color: #abc;
+  background-color: rgb(96, 138, 180);
 }
 .divide {
   display: flex;
@@ -80,13 +81,13 @@ header,
   padding:1rem 2rem ;
 } */
 input.guess[type='number'] {
-  width: 150px;
-  height: 60px;
+  width: 200px;
+  height: 100px;
   font-size: x-large;
-  padding: 1em 0;
+  padding: 1.5em 0;
   font-family: 'Press Start 2P', cursive;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   background-color: #000;
   border: 2px solid #fff;
   color: #fff;
@@ -100,10 +101,11 @@ input.guess[type='number'] {
 }
 h4 {
   line-height: 1.5rem;
+  font-size: 18px;
 }
 p {
   line-height: 1rem;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 p.message {
@@ -121,7 +123,7 @@ p.label-score {
 .fa-arrow-circle-up,
 .fa-arrow-circle-down,
 .fa-frown {
-  font-size: 25px;
+  font-size: 40px;
 }
 .fa-gamepad {
   color: green;
